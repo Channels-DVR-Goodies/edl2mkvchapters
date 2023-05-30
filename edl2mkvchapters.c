@@ -153,7 +153,7 @@ int main( int argc, const char * argv[] )
     {
         for ( int i = 1; i < argc; i++ )
         {
-            if ( argv[1][0] != '-' )
+            if ( argv[i][0] != '-' )
             {
                 processFile( argv[i] );
             }
